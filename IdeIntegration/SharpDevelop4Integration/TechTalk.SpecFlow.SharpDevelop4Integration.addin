@@ -5,7 +5,6 @@
        description = "SpecFlow - Pragmatic BDD for .NET, visit http://www.specflow.org for details.">
 	<Manifest>
 		<Identity name="TechTalk.SpecFlow.SharpDevelop4Integration" version="@TechTalk.SpecFlow.SharpDevelop4Integration.dll"/>
-    <Dependency addin="SharpDevelop" version="4.2"/>
 	</Manifest>
 	<Runtime>
 		<Import assembly = "TechTalk.SpecFlow.SharpDevelop4Integration.dll"/>

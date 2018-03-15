@@ -158,7 +158,7 @@
       <AddInContent Include="$(TargetDir)\*.addin" />
       <AddInContent Include="$(TargetDir)\Templates\*.*" />
     </ItemGroup>
-    <Zip Files="@(AddInContent)" Flatten="false" WorkingDirectory="$(TargetDir)" ZipFileName="$(TargetDir)\TechTalk.SpecFlow.RanorexIntegration.sdaddin" />
+    <Zip Files="@(AddInContent)" Flatten="false" WorkingDirectory="$(TargetDir)" ZipFileName="..\TechTalk.SpecFlow.RanorexIntegration.sdaddin" />
   </Target>
   <Import Project="..\..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets" Condition="Exists('..\..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

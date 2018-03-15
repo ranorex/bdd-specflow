@@ -1,5 +1,8 @@
 = SpecFlow
 
+This is a fork of SpecFlow (http://www.specflow.org) to facilitate building the ShapDevelop add-in for Ranorex Studio.
+For more information about getting Ranorex ready for BDD, have a look at the blog post "How to use Ranorex Studio in your BDD process" (https://www.ranorex.com/blog/how-to-use-ranorex-studio-in-your-bdd-process). 
+
 SpecFlow is a pragmatic BDD solution for .NET. It uses the Gherkin specification language and integrates to many development tools 
 (VS2008, VS2010, MonoDevelop, SharpDevelop, MsBuild). It provides efficient testing solution for the .NET-related platforms, like .NET 3.5, .NET4.0 , Mono, Silverlight 3, Silverlight 4 or Windows Phone 7.
 

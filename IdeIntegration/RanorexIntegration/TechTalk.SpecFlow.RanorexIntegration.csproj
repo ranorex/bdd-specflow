@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>TechTalk.SpecFlow.SharpDevelop4Integration</RootNamespace>
     <AssemblyName>TechTalk.SpecFlow.SharpDevelop4Integration</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -76,15 +76,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.Core">
-      <HintPath>C:\Program Files (x86)\Ranorex 8.0\Bin\ICSharpCode.Core.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\ICSharpCode.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ICSharpCode.SharpDevelop">
-      <HintPath>C:\Program Files (x86)\Ranorex 8.0\Bin\ICSharpCode.SharpDevelop.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\ICSharpCode.SharpDevelop.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ICSharpCode.SharpDevelop.Dom">
-      <HintPath>C:\Program Files (x86)\Ranorex 8.0\Bin\ICSharpCode.SharpDevelop.Dom.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\ICSharpCode.SharpDevelop.Dom.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="PresentationCore" />

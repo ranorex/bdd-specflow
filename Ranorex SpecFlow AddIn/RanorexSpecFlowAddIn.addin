@@ -1,0 +1,19 @@
+﻿<AddIn name        = "RanorexSpecFlowAddIn"
+       author      = "DevLabs"
+       url         = "http://www.specflow.org"
+       copyright   = "New BSD License"
+       description = "SpecFlow - Pragmatic BDD for .NET, visit http://www.specflow.org for details.">
+	<Manifest>
+	</Manifest>
+	
+	<Path name = "/SharpDevelop/Workbench/FileFilter">
+		<FileFilter id = "SpecFlow Features"
+		            insertbefore="AllFiles"
+		            name = "SpecFlow Feature (*.feature)"
+		            extensions = "*.feature"/>
+	</Path>
+
+  <Path name="/SharpDevelop/BackendBindings/Templates">
+    <Directory id="SpecFlowTemplates" path="./Templates" />
+  </Path>
+</AddIn>
